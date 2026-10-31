@@ -15,7 +15,7 @@ Enable manually: **Settings → Pages → Deploy from a branch → main → /(ro
 ## Validation
 
 ```bash
-python3 /home/ubuntu/skills/github-static-commerce-release/scripts/audit_static_site.py .
+python3 scripts/audit_static_site.py .
 node --check app.js
 python3 -m json.tool data/products.json >/dev/null
 ```
